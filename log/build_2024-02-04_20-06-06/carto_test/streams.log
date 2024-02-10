@@ -1,0 +1,27 @@
+[11.767s] Invoking command in '/home/masa/slam_ws/build/carto_test': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/masa/slam_ws/build/carto_test/build --no-deps install_data
+[15.569s] running develop
+[15.578s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[15.580s]   warnings.warn(
+[15.608s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.609s]   warnings.warn(
+[18.342s] running egg_info
+[18.345s] creating carto_test.egg-info
+[18.346s] writing carto_test.egg-info/PKG-INFO
+[18.350s] writing dependency_links to carto_test.egg-info/dependency_links.txt
+[18.357s] writing entry points to carto_test.egg-info/entry_points.txt
+[18.359s] writing requirements to carto_test.egg-info/requires.txt
+[18.366s] writing top-level names to carto_test.egg-info/top_level.txt
+[18.367s] writing manifest file 'carto_test.egg-info/SOURCES.txt'
+[18.391s] reading manifest file 'carto_test.egg-info/SOURCES.txt'
+[18.393s] writing manifest file 'carto_test.egg-info/SOURCES.txt'
+[18.400s] running build_ext
+[18.401s] Creating /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto-test.egg-link (link to .)
+[18.408s] 
+[18.408s] Installed /home/masa/slam_ws/build/carto_test
+[18.409s] running install_data
+[18.410s] creating /home/masa/slam_ws/install/carto_test/share/ament_index
+[18.411s] creating /home/masa/slam_ws/install/carto_test/share/ament_index/resource_index
+[18.413s] creating /home/masa/slam_ws/install/carto_test/share/ament_index/resource_index/packages
+[18.414s] copying resource/carto_test -> /home/masa/slam_ws/install/carto_test/share/ament_index/resource_index/packages
+[18.415s] copying package.xml -> /home/masa/slam_ws/install/carto_test/share/carto_test
+[18.733s] Invoked command in '/home/masa/slam_ws/build/carto_test' returned '0': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/masa/slam_ws/build/carto_test/build --no-deps install_data

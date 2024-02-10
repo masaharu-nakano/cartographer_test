@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating carto_test.egg-info
+writing carto_test.egg-info/PKG-INFO
+writing dependency_links to carto_test.egg-info/dependency_links.txt
+writing entry points to carto_test.egg-info/entry_points.txt
+writing requirements to carto_test.egg-info/requires.txt
+writing top-level names to carto_test.egg-info/top_level.txt
+writing manifest file 'carto_test.egg-info/SOURCES.txt'
+reading manifest file 'carto_test.egg-info/SOURCES.txt'
+writing manifest file 'carto_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto-test.egg-link (link to .)
+
+Installed /home/masa/slam_ws/build/carto_test
+running install_data
+creating /home/masa/slam_ws/install/carto_test/share/ament_index
+creating /home/masa/slam_ws/install/carto_test/share/ament_index/resource_index
+creating /home/masa/slam_ws/install/carto_test/share/ament_index/resource_index/packages
+copying resource/carto_test -> /home/masa/slam_ws/install/carto_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/masa/slam_ws/install/carto_test/share/carto_test

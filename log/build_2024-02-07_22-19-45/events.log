@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.001131] (carto_test) JobQueued: {'identifier': 'carto_test', 'dependencies': OrderedDict()}
+[0.002336] (carto_test) JobStarted: {'identifier': 'carto_test'}
+[0.098982] (-) TimerEvent: {}
+[0.201063] (-) TimerEvent: {}
+[0.302796] (-) TimerEvent: {}
+[0.404785] (-) TimerEvent: {}
+[0.505542] (-) TimerEvent: {}
+[0.606330] (-) TimerEvent: {}
+[0.707128] (-) TimerEvent: {}
+[0.807856] (-) TimerEvent: {}
+[0.908585] (-) TimerEvent: {}
+[1.009347] (-) TimerEvent: {}
+[1.110078] (-) TimerEvent: {}
+[1.210827] (-) TimerEvent: {}
+[1.311538] (-) TimerEvent: {}
+[1.412262] (-) TimerEvent: {}
+[1.512989] (-) TimerEvent: {}
+[1.613795] (-) TimerEvent: {}
+[1.714667] (-) TimerEvent: {}
+[1.815790] (-) TimerEvent: {}
+[1.916593] (-) TimerEvent: {}
+[2.017530] (-) TimerEvent: {}
+[2.122779] (-) TimerEvent: {}
+[2.223596] (-) TimerEvent: {}
+[2.324398] (-) TimerEvent: {}
+[2.425209] (-) TimerEvent: {}
+[2.526027] (-) TimerEvent: {}
+[2.626761] (-) TimerEvent: {}
+[2.727486] (-) TimerEvent: {}
+[2.828163] (-) TimerEvent: {}
+[2.928904] (-) TimerEvent: {}
+[3.029647] (-) TimerEvent: {}
+[3.130435] (-) TimerEvent: {}
+[3.231191] (-) TimerEvent: {}
+[3.331862] (-) TimerEvent: {}
+[3.432587] (-) TimerEvent: {}
+[3.533303] (-) TimerEvent: {}
+[3.634116] (-) TimerEvent: {}
+[3.739013] (-) TimerEvent: {}
+[3.839898] (-) TimerEvent: {}
+[3.941040] (-) TimerEvent: {}
+[3.972615] (carto_test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/carto_test', 'build', '--build-base', '/home/masa/slam_ws/build/carto_test/build', 'install', '--record', '/home/masa/slam_ws/build/carto_test/install.log', '--single-version-externally-managed'], 'cwd': '/home/masa/slam_ws/src/carto_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'masa', 'SSH_CLIENT': '192.168.1.16 54218 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/masa', 'TERM_PROGRAM_VERSION': '1.86.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6936c415-f2dd-49c2-9165-b1ab4928e6c0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'masa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e2de128a5d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/masa/slam_ws/build/carto_test', 'SSH_CONNECTION': '192.168.1.16 54218 192.168.1.39 22', 'PYTHONPATH': '/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.041229] (-) TimerEvent: {}
+[4.142008] (-) TimerEvent: {}
+[4.242806] (-) TimerEvent: {}
+[4.350298] (-) TimerEvent: {}
+[4.451117] (-) TimerEvent: {}
+[4.551942] (-) TimerEvent: {}
+[4.652666] (-) TimerEvent: {}
+[4.753403] (-) TimerEvent: {}
+[4.854159] (-) TimerEvent: {}
+[4.954905] (-) TimerEvent: {}
+[5.055648] (-) TimerEvent: {}
+[5.156387] (-) TimerEvent: {}
+[5.257100] (-) TimerEvent: {}
+[5.328144] (carto_test) StdoutLine: {'line': b'running egg_info\n'}
+[5.332211] (carto_test) StdoutLine: {'line': b'writing ../../build/carto_test/carto_test.egg-info/PKG-INFO\n'}
+[5.333530] (carto_test) StdoutLine: {'line': b'writing dependency_links to ../../build/carto_test/carto_test.egg-info/dependency_links.txt\n'}
+[5.334596] (carto_test) StdoutLine: {'line': b'writing entry points to ../../build/carto_test/carto_test.egg-info/entry_points.txt\n'}
+[5.335670] (carto_test) StdoutLine: {'line': b'writing requirements to ../../build/carto_test/carto_test.egg-info/requires.txt\n'}
+[5.336513] (carto_test) StdoutLine: {'line': b'writing top-level names to ../../build/carto_test/carto_test.egg-info/top_level.txt\n'}
+[5.346490] (carto_test) StdoutLine: {'line': b"reading manifest file '../../build/carto_test/carto_test.egg-info/SOURCES.txt'\n"}
+[5.357305] (-) TimerEvent: {}
+[5.409372] (carto_test) StdoutLine: {'line': b"writing manifest file '../../build/carto_test/carto_test.egg-info/SOURCES.txt'\n"}
+[5.410273] (carto_test) StdoutLine: {'line': b'running build\n'}
+[5.410927] (carto_test) StdoutLine: {'line': b'running build_py\n'}
+[5.412105] (carto_test) StdoutLine: {'line': b'running install\n'}
+[5.457497] (-) TimerEvent: {}
+[5.471160] (carto_test) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.471986] (carto_test) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.472708] (carto_test) StdoutLine: {'line': b'running install_lib\n'}
+[5.478415] (carto_test) StdoutLine: {'line': b'running install_data\n'}
+[5.482889] (carto_test) StdoutLine: {'line': b'copying launch/backpack_test12_launch.py -> /home/masa/slam_ws/install/carto_test/share/carto_test\n'}
+[5.483859] (carto_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.492782] (carto_test) StdoutLine: {'line': b"removing '/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.494731] (carto_test) StdoutLine: {'line': b'Copying ../../build/carto_test/carto_test.egg-info to /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test-0.0.0-py3.10.egg-info\n'}
+[5.504635] (carto_test) StdoutLine: {'line': b'running install_scripts\n'}
+[5.557699] (-) TimerEvent: {}
+[5.596883] (carto_test) StdoutLine: {'line': b'Installing serial_test script to /home/masa/slam_ws/install/carto_test/lib/carto_test\n'}
+[5.599227] (carto_test) StdoutLine: {'line': b"writing list of installed files to '/home/masa/slam_ws/build/carto_test/install.log'\n"}
+[5.657952] (-) TimerEvent: {}
+[5.736449] (carto_test) CommandEnded: {'returncode': 0}
+[5.758078] (-) TimerEvent: {}
+[5.859221] (-) TimerEvent: {}
+[5.963847] (-) TimerEvent: {}
+[6.063903] (carto_test) JobEnded: {'identifier': 'carto_test', 'rc': 0}
+[6.067435] (-) TimerEvent: {}
+[6.067889] (-) EventReactorShutdown: {}
