@@ -1,0 +1,3 @@
+[console_scripts]
+serial_test = carto_test.serial_test:main
+

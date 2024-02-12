@@ -1,0 +1,21 @@
+[12.293s] Invoking command in '/home/masa/slam_ws/build/carto_test': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/masa/slam_ws/build/carto_test/build --no-deps install_data
+[15.382s] running develop
+[15.395s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[15.396s]   warnings.warn(
+[15.400s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.401s]   warnings.warn(
+[18.733s] running egg_info
+[18.744s] writing carto_test.egg-info/PKG-INFO
+[18.752s] writing dependency_links to carto_test.egg-info/dependency_links.txt
+[18.763s] writing entry points to carto_test.egg-info/entry_points.txt
+[18.785s] writing requirements to carto_test.egg-info/requires.txt
+[18.790s] writing top-level names to carto_test.egg-info/top_level.txt
+[18.820s] reading manifest file 'carto_test.egg-info/SOURCES.txt'
+[18.847s] writing manifest file 'carto_test.egg-info/SOURCES.txt'
+[18.875s] running build_ext
+[18.883s] Creating /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto-test.egg-link (link to .)
+[18.906s] Installing serial_test script to /home/masa/slam_ws/install/carto_test/lib/carto_test
+[18.909s] 
+[18.910s] Installed /home/masa/slam_ws/build/carto_test
+[18.912s] running install_data
+[19.273s] Invoked command in '/home/masa/slam_ws/build/carto_test' returned '0': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/masa/slam_ws/build/carto_test/build --no-deps install_data

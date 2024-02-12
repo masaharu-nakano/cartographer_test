@@ -1,0 +1,41 @@
+[5.281s] Invoking command in '/home/masa/slam_ws/build/carto_test': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/masa/slam_ws/build/carto_test/build
+[6.999s] running develop
+[7.001s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.001s]   warnings.warn(
+[7.009s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.009s]   warnings.warn(
+[8.390s] Removing /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto-test.egg-link (link to .)
+[8.562s] Invoked command in '/home/masa/slam_ws/build/carto_test' returned '0': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/masa/slam_ws/build/carto_test/build
+[8.563s] Invoking command in '/home/masa/slam_ws/src/carto_test': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carto_test build --build-base /home/masa/slam_ws/build/carto_test/build install --record /home/masa/slam_ws/build/carto_test/install.log --single-version-externally-managed
+[10.152s] running egg_info
+[10.160s] writing ../../build/carto_test/carto_test.egg-info/PKG-INFO
+[10.163s] writing dependency_links to ../../build/carto_test/carto_test.egg-info/dependency_links.txt
+[10.165s] writing entry points to ../../build/carto_test/carto_test.egg-info/entry_points.txt
+[10.167s] writing requirements to ../../build/carto_test/carto_test.egg-info/requires.txt
+[10.174s] writing top-level names to ../../build/carto_test/carto_test.egg-info/top_level.txt
+[10.186s] reading manifest file '../../build/carto_test/carto_test.egg-info/SOURCES.txt'
+[10.192s] writing manifest file '../../build/carto_test/carto_test.egg-info/SOURCES.txt'
+[10.196s] running build
+[10.198s] running build_py
+[10.200s] creating /home/masa/slam_ws/build/carto_test/build
+[10.202s] creating /home/masa/slam_ws/build/carto_test/build/lib
+[10.204s] creating /home/masa/slam_ws/build/carto_test/build/lib/carto_test
+[10.206s] copying carto_test/serial_test.py -> /home/masa/slam_ws/build/carto_test/build/lib/carto_test
+[10.208s] copying carto_test/__init__.py -> /home/masa/slam_ws/build/carto_test/build/lib/carto_test
+[10.210s] running install
+[10.211s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.212s]   warnings.warn(
+[10.215s] running install_lib
+[10.220s] creating /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test
+[10.224s] copying /home/masa/slam_ws/build/carto_test/build/lib/carto_test/serial_test.py -> /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test
+[10.226s] copying /home/masa/slam_ws/build/carto_test/build/lib/carto_test/__init__.py -> /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test
+[10.233s] byte-compiling /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test/serial_test.py to serial_test.cpython-310.pyc
+[10.236s] byte-compiling /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test/__init__.py to __init__.cpython-310.pyc
+[10.238s] running install_data
+[10.242s] copying launch/serial2_launch.py -> /home/masa/slam_ws/install/carto_test/share/carto_test
+[10.245s] running install_egg_info
+[10.256s] Copying ../../build/carto_test/carto_test.egg-info to /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto_test-0.0.0-py3.10.egg-info
+[10.269s] running install_scripts
+[10.378s] Installing serial_test script to /home/masa/slam_ws/install/carto_test/lib/carto_test
+[10.381s] writing list of installed files to '/home/masa/slam_ws/build/carto_test/install.log'
+[10.558s] Invoked command in '/home/masa/slam_ws/src/carto_test' returned '0': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carto_test build --build-base /home/masa/slam_ws/build/carto_test/build install --record /home/masa/slam_ws/build/carto_test/install.log --single-version-externally-managed

@@ -1,0 +1,22 @@
+[5.382s] Invoking command in '/home/masa/slam_ws/build/carto_test': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/masa/slam_ws/build/carto_test/build --no-deps install_data
+[7.061s] running develop
+[7.063s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.063s]   warnings.warn(
+[7.069s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.070s]   warnings.warn(
+[8.273s] running egg_info
+[8.273s] writing carto_test.egg-info/PKG-INFO
+[8.275s] writing dependency_links to carto_test.egg-info/dependency_links.txt
+[8.276s] writing entry points to carto_test.egg-info/entry_points.txt
+[8.277s] writing requirements to carto_test.egg-info/requires.txt
+[8.278s] writing top-level names to carto_test.egg-info/top_level.txt
+[8.286s] reading manifest file 'carto_test.egg-info/SOURCES.txt'
+[8.290s] writing manifest file 'carto_test.egg-info/SOURCES.txt'
+[8.297s] running build_ext
+[8.298s] Creating /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto-test.egg-link (link to .)
+[8.303s] Installing serial_test script to /home/masa/slam_ws/install/carto_test/lib/carto_test
+[8.305s] 
+[8.305s] Installed /home/masa/slam_ws/build/carto_test
+[8.306s] running install_data
+[8.307s] copying launch/serial_launch.py -> /home/masa/slam_ws/install/carto_test/share/carto_test
+[8.525s] Invoked command in '/home/masa/slam_ws/build/carto_test' returned '0': PYTHONPATH=/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/masa/slam_ws/build/carto_test/build --no-deps install_data

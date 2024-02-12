@@ -1,0 +1,242 @@
+[0.000000] (-) TimerEvent: {}
+[0.001900] (carto_test) JobQueued: {'identifier': 'carto_test', 'dependencies': OrderedDict()}
+[0.002718] (carto_test) JobStarted: {'identifier': 'carto_test'}
+[0.070960] (-) TimerEvent: {}
+[0.179717] (-) TimerEvent: {}
+[0.281885] (-) TimerEvent: {}
+[0.382833] (-) TimerEvent: {}
+[0.484092] (-) TimerEvent: {}
+[0.585696] (-) TimerEvent: {}
+[0.690132] (-) TimerEvent: {}
+[0.795255] (-) TimerEvent: {}
+[0.903221] (-) TimerEvent: {}
+[1.006023] (-) TimerEvent: {}
+[1.111517] (-) TimerEvent: {}
+[1.212376] (-) TimerEvent: {}
+[1.319143] (-) TimerEvent: {}
+[1.421484] (-) TimerEvent: {}
+[1.526122] (-) TimerEvent: {}
+[1.628999] (-) TimerEvent: {}
+[1.731134] (-) TimerEvent: {}
+[1.833074] (-) TimerEvent: {}
+[1.934255] (-) TimerEvent: {}
+[2.036737] (-) TimerEvent: {}
+[2.146737] (-) TimerEvent: {}
+[2.248085] (-) TimerEvent: {}
+[2.349914] (-) TimerEvent: {}
+[2.450768] (-) TimerEvent: {}
+[2.555312] (-) TimerEvent: {}
+[2.659243] (-) TimerEvent: {}
+[2.763060] (-) TimerEvent: {}
+[2.868744] (-) TimerEvent: {}
+[2.970731] (-) TimerEvent: {}
+[3.071859] (-) TimerEvent: {}
+[3.173955] (-) TimerEvent: {}
+[3.275890] (-) TimerEvent: {}
+[3.377983] (-) TimerEvent: {}
+[3.478832] (-) TimerEvent: {}
+[3.580050] (-) TimerEvent: {}
+[3.681946] (-) TimerEvent: {}
+[3.784350] (-) TimerEvent: {}
+[3.889393] (-) TimerEvent: {}
+[3.994459] (-) TimerEvent: {}
+[4.095408] (-) TimerEvent: {}
+[4.196869] (-) TimerEvent: {}
+[4.301792] (-) TimerEvent: {}
+[4.403661] (-) TimerEvent: {}
+[4.505116] (-) TimerEvent: {}
+[4.606447] (-) TimerEvent: {}
+[4.707278] (-) TimerEvent: {}
+[4.808354] (-) TimerEvent: {}
+[4.910374] (-) TimerEvent: {}
+[5.015135] (-) TimerEvent: {}
+[5.131130] (-) TimerEvent: {}
+[5.237356] (-) TimerEvent: {}
+[5.339454] (-) TimerEvent: {}
+[5.441269] (-) TimerEvent: {}
+[5.547359] (-) TimerEvent: {}
+[5.650104] (-) TimerEvent: {}
+[5.751455] (-) TimerEvent: {}
+[5.852693] (-) TimerEvent: {}
+[5.955012] (-) TimerEvent: {}
+[6.057904] (-) TimerEvent: {}
+[6.163749] (-) TimerEvent: {}
+[6.275452] (-) TimerEvent: {}
+[6.377087] (-) TimerEvent: {}
+[6.480919] (-) TimerEvent: {}
+[6.582703] (-) TimerEvent: {}
+[6.692375] (-) TimerEvent: {}
+[6.794879] (-) TimerEvent: {}
+[6.896637] (-) TimerEvent: {}
+[6.997750] (-) TimerEvent: {}
+[7.100216] (-) TimerEvent: {}
+[7.202974] (-) TimerEvent: {}
+[7.305512] (-) TimerEvent: {}
+[7.410306] (-) TimerEvent: {}
+[7.515279] (-) TimerEvent: {}
+[7.617256] (-) TimerEvent: {}
+[7.719979] (-) TimerEvent: {}
+[7.826038] (-) TimerEvent: {}
+[7.930958] (-) TimerEvent: {}
+[8.032872] (-) TimerEvent: {}
+[8.136707] (-) TimerEvent: {}
+[8.244953] (-) TimerEvent: {}
+[8.352019] (-) TimerEvent: {}
+[8.455347] (-) TimerEvent: {}
+[8.556535] (-) TimerEvent: {}
+[8.661708] (-) TimerEvent: {}
+[8.767719] (-) TimerEvent: {}
+[8.873576] (-) TimerEvent: {}
+[8.978884] (-) TimerEvent: {}
+[9.081059] (-) TimerEvent: {}
+[9.187096] (-) TimerEvent: {}
+[9.291094] (-) TimerEvent: {}
+[9.398294] (-) TimerEvent: {}
+[9.499377] (-) TimerEvent: {}
+[9.600448] (-) TimerEvent: {}
+[9.707768] (-) TimerEvent: {}
+[9.809540] (-) TimerEvent: {}
+[9.914725] (-) TimerEvent: {}
+[10.019290] (-) TimerEvent: {}
+[10.121263] (-) TimerEvent: {}
+[10.225329] (-) TimerEvent: {}
+[10.330063] (-) TimerEvent: {}
+[10.434078] (-) TimerEvent: {}
+[10.541409] (-) TimerEvent: {}
+[10.644439] (-) TimerEvent: {}
+[10.746757] (-) TimerEvent: {}
+[10.851229] (-) TimerEvent: {}
+[10.953093] (-) TimerEvent: {}
+[11.055710] (-) TimerEvent: {}
+[11.159804] (-) TimerEvent: {}
+[11.261024] (-) TimerEvent: {}
+[11.368667] (-) TimerEvent: {}
+[11.470939] (-) TimerEvent: {}
+[11.573950] (-) TimerEvent: {}
+[11.678354] (-) TimerEvent: {}
+[11.787545] (-) TimerEvent: {}
+[11.889560] (-) TimerEvent: {}
+[11.990411] (-) TimerEvent: {}
+[12.097132] (-) TimerEvent: {}
+[12.213410] (-) TimerEvent: {}
+[12.315957] (-) TimerEvent: {}
+[12.433228] (carto_test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/masa/slam_ws/build/carto_test/build', '--no-deps', 'install_data'], 'cwd': '/home/masa/slam_ws/build/carto_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'masa', 'SSH_CLIENT': '192.168.1.16 53292 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/masa', 'OLDPWD': '/home/masa/slam_ws/src', 'TERM_PROGRAM_VERSION': '1.86.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d9bde8a1-f54d-4654-bb33-2d2082e34c74.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/masa/slam_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'masa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/masa/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-57bea390d0.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/masa/slam_ws/install/carto_test:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/masa/slam_ws/build/carto_test', 'SSH_CONNECTION': '192.168.1.16 53292 192.168.1.39 22', 'PYTHONPATH': '/home/masa/slam_ws/build/carto_test/prefix_override:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:/home/masa/slam_ws/build/carto_test:/home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.464000] (-) TimerEvent: {}
+[12.572041] (-) TimerEvent: {}
+[12.674247] (-) TimerEvent: {}
+[12.776118] (-) TimerEvent: {}
+[12.878245] (-) TimerEvent: {}
+[12.979847] (-) TimerEvent: {}
+[13.080820] (-) TimerEvent: {}
+[13.183150] (-) TimerEvent: {}
+[13.285089] (-) TimerEvent: {}
+[13.386257] (-) TimerEvent: {}
+[13.488328] (-) TimerEvent: {}
+[13.589560] (-) TimerEvent: {}
+[13.691351] (-) TimerEvent: {}
+[13.792840] (-) TimerEvent: {}
+[13.894437] (-) TimerEvent: {}
+[13.996516] (-) TimerEvent: {}
+[14.100827] (-) TimerEvent: {}
+[14.202669] (-) TimerEvent: {}
+[14.313102] (-) TimerEvent: {}
+[14.414108] (-) TimerEvent: {}
+[14.519880] (-) TimerEvent: {}
+[14.623278] (-) TimerEvent: {}
+[14.728344] (-) TimerEvent: {}
+[14.830040] (-) TimerEvent: {}
+[14.931777] (-) TimerEvent: {}
+[15.035873] (-) TimerEvent: {}
+[15.138021] (-) TimerEvent: {}
+[15.249947] (-) TimerEvent: {}
+[15.357765] (-) TimerEvent: {}
+[15.469707] (-) TimerEvent: {}
+[15.578269] (-) TimerEvent: {}
+[15.679741] (-) TimerEvent: {}
+[15.791247] (-) TimerEvent: {}
+[15.893664] (-) TimerEvent: {}
+[15.998275] (-) TimerEvent: {}
+[16.106754] (-) TimerEvent: {}
+[16.207707] (-) TimerEvent: {}
+[16.308899] (-) TimerEvent: {}
+[16.410858] (-) TimerEvent: {}
+[16.511733] (-) TimerEvent: {}
+[16.613522] (-) TimerEvent: {}
+[16.715840] (-) TimerEvent: {}
+[16.819166] (-) TimerEvent: {}
+[16.923763] (-) TimerEvent: {}
+[17.027072] (-) TimerEvent: {}
+[17.069257] (carto_test) StdoutLine: {'line': b'running develop\n'}
+[17.075352] (carto_test) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.076127] (carto_test) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.084045] (carto_test) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.085294] (carto_test) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.127172] (-) TimerEvent: {}
+[17.228067] (-) TimerEvent: {}
+[17.329636] (-) TimerEvent: {}
+[17.431379] (-) TimerEvent: {}
+[17.534616] (-) TimerEvent: {}
+[17.640717] (-) TimerEvent: {}
+[17.743931] (-) TimerEvent: {}
+[17.846007] (-) TimerEvent: {}
+[17.949825] (-) TimerEvent: {}
+[18.052554] (-) TimerEvent: {}
+[18.157035] (-) TimerEvent: {}
+[18.267675] (-) TimerEvent: {}
+[18.369198] (-) TimerEvent: {}
+[18.471007] (-) TimerEvent: {}
+[18.573247] (-) TimerEvent: {}
+[18.681634] (-) TimerEvent: {}
+[18.803134] (-) TimerEvent: {}
+[18.914860] (-) TimerEvent: {}
+[19.016216] (-) TimerEvent: {}
+[19.122073] (-) TimerEvent: {}
+[19.223671] (-) TimerEvent: {}
+[19.325515] (-) TimerEvent: {}
+[19.427412] (-) TimerEvent: {}
+[19.529261] (-) TimerEvent: {}
+[19.630183] (-) TimerEvent: {}
+[19.735946] (-) TimerEvent: {}
+[19.839765] (-) TimerEvent: {}
+[19.940592] (-) TimerEvent: {}
+[20.044092] (-) TimerEvent: {}
+[20.147912] (-) TimerEvent: {}
+[20.255305] (-) TimerEvent: {}
+[20.260213] (carto_test) StdoutLine: {'line': b'running egg_info\n'}
+[20.263405] (carto_test) StdoutLine: {'line': b'writing carto_test.egg-info/PKG-INFO\n'}
+[20.267623] (carto_test) StdoutLine: {'line': b'writing dependency_links to carto_test.egg-info/dependency_links.txt\n'}
+[20.269828] (carto_test) StdoutLine: {'line': b'writing entry points to carto_test.egg-info/entry_points.txt\n'}
+[20.271146] (carto_test) StdoutLine: {'line': b'writing requirements to carto_test.egg-info/requires.txt\n'}
+[20.272424] (carto_test) StdoutLine: {'line': b'writing top-level names to carto_test.egg-info/top_level.txt\n'}
+[20.299693] (carto_test) StdoutLine: {'line': b"reading manifest file 'carto_test.egg-info/SOURCES.txt'\n"}
+[20.308787] (carto_test) StdoutLine: {'line': b"writing manifest file 'carto_test.egg-info/SOURCES.txt'\n"}
+[20.331313] (carto_test) StdoutLine: {'line': b'running build_ext\n'}
+[20.333770] (carto_test) StdoutLine: {'line': b'Creating /home/masa/slam_ws/install/carto_test/lib/python3.10/site-packages/carto-test.egg-link (link to .)\n'}
+[20.355913] (carto_test) StdoutLine: {'line': b'Installing serial_test script to /home/masa/slam_ws/install/carto_test/lib/carto_test\n'}
+[20.357544] (-) TimerEvent: {}
+[20.361864] (carto_test) StdoutLine: {'line': b'\n'}
+[20.363600] (carto_test) StdoutLine: {'line': b'Installed /home/masa/slam_ws/build/carto_test\n'}
+[20.365737] (carto_test) StdoutLine: {'line': b'running install_data\n'}
+[20.367994] (carto_test) StdoutLine: {'line': b'copying launch/serial_launch.py -> /home/masa/slam_ws/install/carto_test/share/carto_test\n'}
+[20.457861] (-) TimerEvent: {}
+[20.559505] (-) TimerEvent: {}
+[20.624814] (carto_test) CommandEnded: {'returncode': 0}
+[20.660361] (-) TimerEvent: {}
+[20.764282] (-) TimerEvent: {}
+[20.868014] (-) TimerEvent: {}
+[20.971628] (-) TimerEvent: {}
+[21.075002] (-) TimerEvent: {}
+[21.176395] (-) TimerEvent: {}
+[21.278595] (-) TimerEvent: {}
+[21.384481] (-) TimerEvent: {}
+[21.489131] (-) TimerEvent: {}
+[21.594328] (-) TimerEvent: {}
+[21.696546] (-) TimerEvent: {}
+[21.815393] (-) TimerEvent: {}
+[21.921542] (-) TimerEvent: {}
+[22.029286] (-) TimerEvent: {}
+[22.130700] (-) TimerEvent: {}
+[22.232354] (-) TimerEvent: {}
+[22.328097] (carto_test) JobEnded: {'identifier': 'carto_test', 'rc': 0}
+[22.333799] (-) TimerEvent: {}
+[22.346805] (-) EventReactorShutdown: {}
